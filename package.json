@@ -1,0 +1,22 @@
+{
+  "name": "lux_parallel_masternode-api",
+  "version": "1.0.0",
+  "description": "Lux parallel masternode api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/216k155/lux-parallel-masternode.git"
+  },
+  "author": "216k155",
+  "license": "Copyright",
+  "bugs": {
+    "url": "https://github.com/216k155/lux-parallel-masternode/issues"
+  },
+  "homepage": "https://github.com/216k155/lux-parallel-masternode#readme",
+  "dependencies": {
+   
+  }
+}

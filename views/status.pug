@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    .row
+        .col-xs-12
+            table.table.table-bordered
+                tbody
+                    tr
+                        td Daemon running
+                        if daemonProcessUptime
+                            td YES
+                        else
+                            td NO
+                    tr
+                        td Daemon Uptime
+                        td=daemonProcessUptime
+                    tr
+                        td Debug Info
+                        td=debug
+                    tr
+                        td Balance
+                        td=balance
+                    tr
+                        td Blocks count
+                        td=blockCount
+
+
